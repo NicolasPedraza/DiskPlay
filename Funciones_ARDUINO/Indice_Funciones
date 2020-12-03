@@ -1,0 +1,20 @@
+carga_imagen:
+Esta funcion se encarga de cargar la imagen  A COLOR previamente generada en MATLAB para 
+asignarla a un espacio en la EEPROM.
+
+carga_imagen_blanco_negro:
+Esta funcion se encarga de cargar la imagen  A BLANCO Y NEGRO previamente generada en MATLAB para 
+asignarla a un espacio en la EEPROM
+
+visualizacion:
+Esta funcion se encarga de asignar los datos guardados en la memoria EEPROM, para asignarlos
+a los LED dependiendo de su radio y angulo correspondiente para su visualizacion en un display
+giratorio.
+Para este caso en particular, se realiza la asignacion a un solo blade o tira LED para su
+posterior visualizacion A COLOR de 1 a 4 blades o tiras LED.
+
+visualizacion_blanco_negro:
+Esta funcion se encarga de asignar los datos guardados en la memoria EEPROM, para asignarlos
+a los LED dependiendo de su radio y angulo correspondiente para su visualizacion en un display
+giratorio.
+Se adjuntan las funciones para realizarlo con 1 a 4 blades o tiras LED.

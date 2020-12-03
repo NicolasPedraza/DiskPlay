@@ -1,0 +1,61 @@
+Indice Funciones DiskPlay
+
+MATLAB
+
+cambio_linea:			
+Retorna la imagen oscureciendo el grado en el que se encuentra la linea LEDSe descompone la imagen de la bicicleta.
+
+color_linea:
+Retorna la imagen a color en el grado en el que se encuentra la linea LED (el resto a oscuras).
+
+convertidorppm:
+Esta funcion convierte una imagen .jpg o .png a ppm tipo P3 (ASCII).
+
+desc_imagen:
+En esta funcion se descompone la imagen .jpg .png .ppm en su escala de RGB y su escala se Grises.
+
+lineaRGB:
+En esta funcion se obtiene el RGB de cada LED correspondiente al angulo en el que se encuentre la linea de LEDS del diplay giratorio.
+
+pixelpolar:
+A esta funcion se le ingresa la longitud de la imagen recortada de la bicicleta(circulo) para retornar en coordenadas polares la posicion de cada pixel.
+
+pixelpolar_RGB:
+Se filtran las coordenadas (polares) para obtener el RGB correspondiente.
+
+plantilla_imagen_C:
+Esta funcion se encarga de generar una matriz en lenguaje C, donde el numero de filas son los grados que se quieren mostrar y las columnas 
+el numero de LEDs para un display giratorio.
+
+RGB_pixelpolar_txt:
+Esta funcion se encarga de crear un txt donde cada renglon representa el numero de  angulos y muestra en cada los valores de R de todos los 
+leds, luego G y finalmente B (estilo plantilla donde se colocan todos los valores de 3 digitos).
+
+RGB_pixelpolar_txt_2:
+Esta funcion se encarga de crear un txt donde cada renglon representa el numero de angulos y muestra en cada los valores de RGB del primer led, 
+RGB del segundo y asi sucesivamente.
+
+simulacion_bicicleta:
+Esta funcion se creo con el fin de observar el funcionamiento de un display giratorio, donde se le ingresa una imagen cualquiera y la adapta
+segun el numero de leds y helices que tenga disponibles.
+
+vista_bicicleta:
+Esta funcion se le ingresa el nombre de la imagen .jpg o .png y el numero  de leds que se tienen en linea de la bicicleta, con el objetivo
+de hacer una simulacion de como se vería la imagen en la bicicleta en movimiento (pixelada).
+
+vista_bicicleta_2:
+Igual que vista_bicicleta pero si se observa la imagen recortada en circulo.
+
+desc_numero:
+Esta funcion descompone el numero y le agrega los ceros necesarios para que siemprese tenga a la salida un 
+string de 3 digitos
+
+imagen_radial_C:
+Esta funcion convierte una imagen a codigo en C en forma de matriz RGB para graficarla de forma radial en el display.
+
+agrandar_imagen:
+Esta funcion agranda una imagen al tamaño que se necesite.
+
+plantilla_imagen_C_array:
+Esta funcion se encarga de generar un arreglo en lenguaje C, donde se muestra como el numero de filas son los grados que se quieren mostrar y 
+las columnas el numero de LEDs para un display giratorio, pero realmente se encuentran representados por un solo arreglo para su facilidad de lectura.

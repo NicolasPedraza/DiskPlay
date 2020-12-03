@@ -18,3 +18,7 @@ Esta funcion se encarga de asignar los datos guardados en la memoria EEPROM, par
 a los LED dependiendo de su radio y angulo correspondiente para su visualizacion en un display
 giratorio.
 Se adjuntan las funciones para realizarlo con 1 a 4 blades o tiras LED.
+
+Pruebas Logos:
+Se realizan los codigos predeterminados de carga de imagen de algunos logos escogidos para una
+definicion de 42 angulo y 32 LED en el display.
